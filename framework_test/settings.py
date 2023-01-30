@@ -79,12 +79,8 @@ WSGI_APPLICATION = 'framework_test.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'framepass',
-        'HOST': '0.0.0.0',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'frame_db',
     }
 }
 
